@@ -1,0 +1,4 @@
+# bandwidth monitor and rate estimator
+# based on https://github.com/tgraf/bmon
+~ sudo docker build -t charlesboyo/bmon .
+~ sudo docker run -it --net=host --name bmon charlesboyo/bmon
